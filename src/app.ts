@@ -3,7 +3,7 @@ import { createBot, createProvider, createFlow, addKeyword, utils, EVENTS } from
 import { MemoryDB as Database } from '@builderbot/bot'
 import { BaileysProvider as Provider } from '@builderbot/provider-baileys'
 
-const PORT = process.env.PORT ?? 3009
+const PORT = process.env.PORT ?? 3000
 
 import { welcomeFlow } from './flows/welcome.flow';
 import { chat } from './scripts/gemini'
